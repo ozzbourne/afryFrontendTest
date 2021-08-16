@@ -45,7 +45,7 @@ const HandleCompanyPage = (props) => {
         <p>Loading...</p>
       ) : (
         <>
-          <p>{company?.name}</p>
+          <h1>{company?.name}</h1>
           <p>Below is a list of all current employees for this current company:</p>
           {employeesAtThisCompany?.length > 0 ? (
             employeesAtThisCompany.map((employee) => (
