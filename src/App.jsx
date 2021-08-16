@@ -1,14 +1,10 @@
-// TODO Snygga till med emotion
-// TODO framer motion för animeringar
-// TODO Jest + react testing library
-// TODO Login m. knuten data m. firebase?
+// TODO Animera med Framer Motion?
+// TODO Jest + react testing library?
+// TODO Login m. firebase?
 // TODO <ErrorBoundary />
-// TODO Sortera hämtad från Firebase efter timestamp?
-// TODO confirm-modal när man tar bort saker?
-// TODO Värt att köra in Redux för en error-modal? Annars prop-drilla en trigger-funktion.
-// TODO Dummydata Oskar + Erik + Andreas + afry
-// TODO Mobile
-// TODO Uppdatera readme
+// TODO Sortera hämtad data från Firebase efter timestamp?
+// TODO Confirm-modal när man tar bort saker?
+// TODO Mobile?
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import styled from '@emotion/styled';
 import LandingPage from './components/pages/LandingPage';
